@@ -1,0 +1,122 @@
+:root {
+    --color-one: #2d7df5;
+    --color-two: #ca1794;
+    --box-shadow: 5px 10px 30px rgb(0, 0, 0, 0.2);
+  }
+  
+  .home-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    color: var(--color-one);
+  }
+  
+  body {
+    margin: 60px auto;
+  }
+  
+  
+  h1 {
+    font-size: 56px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 24px;
+    text-align: center;
+    opacity: 0.7;
+  }
+  
+  p {
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  
+  .email {
+    background-color: var(--color-one);
+  }
+  
+  .email-link {
+    color: var(--color-two);
+  }
+  
+  .about {
+    color: var(--color-one);
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+
+  
+  #contact {
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+    color: palevioletred;
+  }
+  
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .navigation-links a {
+    border: 1px solid var(--color-one);
+    border-radius: 4px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: palevioletred;
+  }
+  
+  .photo-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: palevioletred;
+  }
+  
+  .home-link {
+    /* color: var(--primary-color); */
+    color: palevioletred;
+    text-align: center;
+    display: block;
+  }
+  
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: palevioletred;
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+ 
